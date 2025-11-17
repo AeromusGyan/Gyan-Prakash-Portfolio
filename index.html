@@ -1,1106 +1,1491 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Gyan Prakash is a Full Stack Web Developer Using MEAN Stack and Spring Boot.</title>
-    <base href="/">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="robots" content="noindex, nofollow">
-    <link rel="canonical" href="https://gyanport.netlify.app/" />
-    <meta name="description"
-        content="Gyan Prakash is a Full Stack Web Developer Using MEAN Stack and Spring Boot.">
-    <meta name="keywords"
-        content="gyan, prakash, gp,web developer, website developer, full stack developer, frontend developer, backend developer, ui ux Designer, sciaku, science knowledge, gyan prakash, courses, free courses, top free courses, quiz, quiz category, gyan, sciaku quiz result, sciaku.com, gp, gyan, prakash">
-    <meta name="author" content="Gyan Prakash">
-    <!-- <meta property="image" content="https://sciaku.com/assets/gyan.png" /> -->
-    
-    <!-- Facebook og Metadata -->
-    <meta property="og:site_name" content="Gyan Prakash" />
-    <meta property="og:url" content="https://gyanport.netlify.app/" />
-    <meta property="og:type" content="portfolio" />
-    <meta property="og:title"
-        content="Gyan Prakash is a Full Stack Web Developer Using MEAN Stack and Spring Boot." />
-    <meta property="og:description"
-        content="Gyan Prakash is a Full Stack Web Developer Using MEAN Stack and Spring Boot." />
-    <!-- <meta property="og:image" content="https://sciaku.com/assets/images/sciaku-logo.png" /> -->
-    <!-- <meta property="og:image:secure_url" content="https://sciaku.com/assets/gyan.png" /> -->
-    <meta property="og:image:type" content="image/png/jpeg" />
-    
-    <!--Twitter Card Metadata-->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://gyanport.netlify.app/">
-    <meta name="twitter:title"
-        content="Gyan Prakash is a Full Stack Web Developer Using MEAN Stack and Spring Boot.">
-    <meta name="twitter:description"
-        content="Gyan Prakash is a Full Stack Web Developer Using MEAN Stack and Spring Boot.">
-    <!-- <meta name="twitter:image" content="https://sciaku.com/assets/gyan.png"> -->
-    <meta name="twitter:site" content="Gyan Prakash">
-    <!-- google font -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
-        rel="stylesheet">
-    <!-- Template CSS Style link -->
-    <link rel="stylesheet" href="/assets/css/style-liberty.css">
-</head>
-
-<body>
-    <script src="../../../../../../../m.servedby-buysellads.com/monetization.js" type="text/javascript"></script>
-    <script async src='../../../../../../js/autotrack.js'></script>
-
-    <body>
-        <link rel="stylesheet" href="../../../../../../assests/css/font-awesome.min.css">
-        <!-- New toolbar-->
-        <style>
-            * {
-                box-sizing: border-box;
-                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gyan Prakash | Full Stack Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+        
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-10px);
+        }
+        
+        .skill-badge {
+            transition: all 0.3s ease;
+        }
+        
+        .skill-badge:hover {
+            transform: scale(1.1);
+        }
+        
+        .smooth-scroll {
+            scroll-behavior: smooth;
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
             }
-
-
-            #w3lDemoBar.w3l-demo-bar {
-                top: 0;
-                right: 0;
-                bottom: 0;
-                z-index: 9999;
-                padding: 40px 5px;
-                padding-top: 70px;
-                margin-bottom: 70px;
-                background: #0D1326;
-                border-top-left-radius: 9px;
-                border-bottom-left-radius: 9px;
-            }
-
-            #w3lDemoBar.w3l-demo-bar a {
-                display: block;
-                color: #e6ebff;
-                text-decoration: none;
-                line-height: 24px;
-                opacity: .6;
-                margin-bottom: 20px;
-                text-align: center;
-            }
-
-            #w3lDemoBar.w3l-demo-bar span.w3l-icon {
-                display: block;
-            }
-
-            #w3lDemoBar.w3l-demo-bar a:hover {
+            to {
                 opacity: 1;
+                transform: translateY(0);
             }
-
-            #w3lDemoBar.w3l-demo-bar .w3l-icon svg {
-                color: #e6ebff;
-            }
-
-            #w3lDemoBar.w3l-demo-bar .responsive-icons {
-                margin-top: 30px;
-                border-top: 1px solid #41414d;
-                padding-top: 40px;
-            }
-
-            #w3lDemoBar.w3l-demo-bar .demo-btns {
-                border-top: 1px solid #41414d;
-                padding-top: 30px;
-            }
-
-            #w3lDemoBar.w3l-demo-bar .responsive-icons a span.fa {
-                font-size: 26px;
-            }
-
-            #w3lDemoBar.w3l-demo-bar .no-margin-bottom {
-                margin-bottom: 0;
-            }
-
-            .toggle-right-sidebar span {
-                background: #0D1326;
-                width: 50px;
-                height: 50px;
-                line-height: 50px;
-                text-align: center;
-                color: #e6ebff;
-                border-radius: 50px;
-                font-size: 26px;
-                cursor: pointer;
-                opacity: .5;
-            }
-
-            .pull-right {
-                float: right;
-                position: fixed;
-                right: 0px;
-                top: 70px;
-                width: 90px;
-                z-index: 99999;
-                text-align: center;
-            }
-
-            /* ============================================================
-RIGHT SIDEBAR SECTION
-============================================================ */
-
-            #right-sidebar {
-                width: 90px;
-                position: fixed;
-                height: 100%;
-                z-index: 1000;
-                right: 0px;
-                top: 0;
-                margin-top: 60px;
-                -webkit-transition: all .5s ease-in-out;
-                -moz-transition: all .5s ease-in-out;
-                -o-transition: all .5s ease-in-out;
-                transition: all .5s ease-in-out;
-                overflow-y: auto;
-            }
-
-
-            /* ============================================================
-RIGHT SIDEBAR TOGGLE SECTION
-============================================================ */
-
-            .hide-right-bar-notifications {
-                margin-right: -300px !important;
-                -webkit-transition: all .3s ease-in-out;
-                -moz-transition: all .3s ease-in-out;
-                -o-transition: all .3s ease-in-out;
-                transition: all .3s ease-in-out;
-            }
-
-
-
-            @media (max-width: 992px) {
-                #w3lDemoBar.w3l-demo-bar a.desktop-mode {
-                    display: none;
-
-                }
-            }
-
-            @media (max-width: 767px) {
-                #w3lDemoBar.w3l-demo-bar a.tablet-mode {
-                    display: none;
-
-                }
-            }
-
-            @media (max-width: 568px) {
-                #w3lDemoBar.w3l-demo-bar a.mobile-mode {
-                    display: none;
-                }
-
-                #w3lDemoBar.w3l-demo-bar .responsive-icons {
-                    margin-top: 0px;
-                    border-top: none;
-                    padding-top: 0px;
-                }
-
-                #right-sidebar,
-                .pull-right {
-                    width: 90px;
-                }
-
-                #w3lDemoBar.w3l-demo-bar .no-margin-bottom-mobile {
-                    margin-bottom: 0;
-                }
-            }
-        </style>
-        <!-- header -->
-        <header id="site-header" class="fixed-top">
-            <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand" href="index.html">
-                        <i class="fab fa-google"></i><i class="fab fa-pinterest-p"></i>.
-                    </a>
-                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
-                        <span class="navbar-toggler-icon fa icon-close fa-times"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarScroll">
-                        <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="about.html">My Intro</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="services.html">Services</a>
-                            </li>
-                            <!-- <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Pages <i class="fas fa-angle-down"></i>
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                                    <li><a class="dropdown-item" href="blog.html">Blog Posts</a></li>
-                                    <li><a class="dropdown-item" href="blog-single.html">Blog Single</a></li>
-                                    <li><a class="dropdown-item" href="error.html">404 Page</a></li>
-                                    <li><a class="dropdown-item" href="email-template.html">Email Template</a></li>
-                                    <li><a class="dropdown-item" href="shortcodes.html">Shortcodes</a></li>
-                                    <li><a class="dropdown-item" href="landing-single.html">Landing Page</a></li>
-                                </ul>
-                            </li> -->
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
-                            </li>
-                        </ul>
-                        <form class="d-flex search-header">
-                            <input class="form-control" type="search" placeholder="Enter Keyword..." aria-label="Search"
-                                required>
-                            <button class="btn btn-style" type="submit">Search</button>
-                        </form>
-                    </div>
-                    <!-- toggle switch for light and dark theme -->
-                    <div class="cont-ser-position">
-                        <nav class="navigation">
-                            <div class="theme-switch-wrapper">
-                                <label class="theme-switch" for="checkbox">
-                                    <input type="checkbox" id="checkbox">
-                                    <div class="mode-container">
-                                        <i class="gg-sun"></i>
-                                        <i class="gg-moon"></i>
-                                    </div>
-                                </label>
-                            </div>
-                        </nav>
-                    </div>
-                    <!-- //toggle switch for light and dark theme -->
-                </nav>
-            </div>
-        </header>
-        <!-- //header -->
-
-        <!-- banner section -->
-        <section class="w3l-banner py-5" id="home">
-            <div class="container py-md-5 py-4">
-                <div class="row align-items-center pt-4">
-                    <div class="col-md-6 banner-left pe-xl-5">
-                        <h4>Hi, I'm Gyan Prakash</h4>
-                        <h3 class="mb-3 mt-1"><span class="typed-text"></span><span class="cursor">&nbsp</span></h3>
-                        <p class="banner-sub me-md-5">I love to work in UI/UX designing.
-                            I always try my best to make good UI with the best UX.
-                        </p>
-                        <div class="d-flex align-items-center buttons-banner mt-sm-5 mt-4">
-                            <a href="about.html" class="btn btn-style me-2">Hire Me</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                    </div>
+        }
+        
+        .animate-fade-in-up {
+            animation: fadeInUp 0.6s ease-out forwards;
+        }
+        
+        .nav-link {
+            position: relative;
+        }
+        
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -5px;
+            left: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            transition: width 0.3s ease;
+        }
+        
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        
+        .timeline-item {
+            position: relative;
+            padding-left: 30px;
+            border-left: 2px solid #667eea;
+        }
+        
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -6px;
+            top: 0;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #667eea;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-100 smooth-scroll">
+    
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-gray-900/95 backdrop-blur-sm z-50 border-b border-gray-800">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <h1 class="text-2xl font-bold gradient-text">GP</h1>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="nav-link hover:text-purple-400 transition">Home</a>
+                    <a href="#about" class="nav-link hover:text-purple-400 transition">About</a>
+                    <a href="#experience" class="nav-link hover:text-purple-400 transition">Experience</a>
+                    <a href="#projects" class="nav-link hover:text-purple-400 transition">Projects</a>
+                    <a href="#skills" class="nav-link hover:text-purple-400 transition">Skills</a>
+                    <a href="#testimonials" class="nav-link hover:text-purple-400 transition">Testimonials</a>
+                    <a href="#contact" class="nav-link hover:text-purple-400 transition">Contact</a>
                 </div>
+                <button id="mobile-menu-btn" class="md:hidden text-gray-300">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
             </div>
-            <!-- animations icons -->
-            <div class="icon-effects-w3-1 text-right">
-                <img src="assets/images/icon2.png" alt="" class="img-fluid">
+            
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden md:hidden mt-4 space-y-3">
+                <a href="#home" class="block hover:text-purple-400 transition">Home</a>
+                <a href="#about" class="block hover:text-purple-400 transition">About</a>
+                <a href="#experience" class="block hover:text-purple-400 transition">Experience</a>
+                <a href="#projects" class="block hover:text-purple-400 transition">Projects</a>
+                <a href="#skills" class="block hover:text-purple-400 transition">Skills</a>
+                <a href="#testimonials" class="block hover:text-purple-400 transition">Testimonials</a>
+                <a href="#contact" class="block hover:text-purple-400 transition">Contact</a>
             </div>
-            <div class="icon-effects-w3-2 text-right">
-                <img src="assets/images/icon3.png" alt="" class="img-fluid">
-            </div>
-            <div class="icon-effects-w3-3 text-right">
-                <img src="assets/images/icon1.png" alt="" class="img-fluid">
-            </div>
-            <div class="icon-effects-w3-4 text-right">
-                <img src="assets/images/icon6.png" alt="" class="img-fluid">
-            </div>
-            <!-- //animations icons -->
-        </section>
-        <!-- //banner section -->
-
-        <!-- logo partners -->
-        <!-- <section class="w3l-clients pt-5 pb-4" id="clients">
-            <div class="container">
-                <div class="company-logos text-center">
-                    <div class="row mx-auto justify-content-center">
-                        <div class="col-md-2 col-sm-4 col-6 offset-lg-1">
-                            <img src="assets/images/logo1.png" alt="" class="img-fluid">
-                        </div>
-                        <div class="col-md-2 col-sm-4 col-6">
-                            <img src="assets/images/logo2.png" alt="" class="img-fluid">
-                        </div>
-                        <div class="col-md-2 col-sm-4 col-6 mt-sm-0 mt-3">
-                            <img src="assets/images/logo3.png" alt="" class="img-fluid">
-                        </div>
-                        <div class="col-md-2 col-sm-4 col-6 mt-md-0 mt-3">
-                            <img src="assets/images/logo4.png" alt="" class="img-fluid">
-                        </div>
-                        <div class="col-md-2 col-sm-4 col-6 mt-md-0 mt-3">
-                            <img src="assets/images/logo5.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <!-- //logo partners -->
-        <div style="margin: 8px auto; display: block; text-align:center;">
-
-            <!---728x90--->
-
-
         </div>
-        <!-- grids section -->
-        <section class="w3l-bottom-grids-6 pt-sm-5 pb-5" id="features">
-            <div class="container pt-lg-4">
-                <div class="grids-area-hny main-cont-wthree-fea row">
-                    <div class="col-md-3 col-sm-4 ps-xl-5">
-                        <h4 class="ab-exper-count mb-sm-4 ps-lg-4">2</h4>
-                        <p class="ab-content ps-lg-4">years of experience working</p>
-                    </div>
-                    <div class="col-xl-8 col-md-9 col-sm-8 offset-xl-1 ps-xl-0 pe-xl-5 mt-sm-0 mt-4">
-                        <h3 class="title-style mb-sm-5 mb-4">I'm a Full Stack Web Developer with a passion for web
-                            development.
-                        </h3>
-                        <div class="row">
-                            <div class="col-lg-4 col-md-6 grids-feature">
-                                <div class="area-box active">
-                                    <div class="icon-style">
-                                        <i class="fas fa-lightbulb"></i>
-                                    </div>
-                                    <h4><a href="#feature" class="title-head">Creative Design</a></h4>
-                                    <a href="about.html" class="btn more p-0">Explore More<i
-                                            class="fas fa-long-arrow-alt-right ms-1"></i></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 grids-feature mt-md-0 mt-4">
-                                <div class="area-box">
-                                    <div class="icon-style">
-                                        <i class="fas fa-laptop-code"></i>
-                                    </div>
-                                    <h4><a href="#feature" class="title-head">Web Design</a></h4>
-                                    <a href="about.html" class="btn more p-0">Explore More<i
-                                            class="fas fa-long-arrow-alt-right ms-1"></i></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 grids-feature mt-lg-0 mt-4">
-                                <div class="area-box">
-                                    <div class="icon-style">
-                                        <i class="fas fa-layer-group"></i>
-                                    </div>
-                                    <h4><a href="#feature" class="title-head">Brand Identity</a></h4>
-                                    <a href="about.html" class="btn more p-0">Explore More<i
-                                            class="fas fa-long-arrow-alt-right ms-1"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- //grids section -->
-        <div style="margin: 8px auto; display: block; text-align:center;">
+    </nav>
 
-            <!---728x90--->
-
-        </div>
-        <!-- about section -->
-        <section class="w3l-aboutblock1 pt-lg-5 pt-2 pb-5" id="about">
-            <div class="container py-md-5 py-4">
-                <div class="row align-items-center">
-                    <div class="col-lg-4">
-                        <div class="position-relative">
-                            <img src="assets/images/about.jpg" alt="" class="radius-image img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-lg-8 ps-lg-5 mt-lg-0 mt-5">
-                        <h5 class="title-small mb-1">My Intro</h5>
-                        <h3 class="title-style">About Me</h3>
-                        <p class="mt-3">Hello, I am Gyan Prakash Computer Science Engineering Student from BNCET
-                            Lucknow. I did complete many web pages and got lots off experience. I have Hosted some
-                            Websites and Updated many Websites. I have Created a full-Stack CRUD Website by using HTML,
-                            CSS, Bootstrap, JS, Angular, NodeJS, and Wamp server Database. I am Learning these
-                            technologies for 1 year or above. And I also have some knowledge about other languages like
-                            C, C++, PHP, JAVA, and Python little knowledge.</p>
-                        <div class="my-info mt-md-5 mt-4">
-                            <ul class="single-info">
-                                <li class="name-style">Name</li>
-                                <li>:</li>
-                                <li>
-                                    <p>Gyan Prakash</p>
-                                </li>
-                            </ul>
-                            <ul class="single-info">
-                                <li class="name-style">Age</li>
-                                <li>:</li>
-                                <li>
-                                    <p>20 Years</p>
-                                </li>
-                            </ul>
-                            <ul class="single-info">
-                                <li class="name-style">From</li>
-                                <li>:</li>
-                                <li>
-                                    <p>Lucknow, UP, India</p>
-                                </li>
-                            </ul>
-                            <ul class="single-info">
-                                <li class="name-style">Email</li>
-                                <li>:</li>
-                                <li>
-                                    <p><a href="mailto:aeromusgyan@gmail.com">aeromusgyan@gmail.com</a></p>
-                                </li>
-                            </ul>
-                        </div>
-                        <a href="/assets/Gyan Prakash Resume.pdf" target="_blank" download
-                            class="btn btn-style mt-5">Download CV</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- //about section -->
-        <div style="margin: 8px auto; display: block; text-align:center;">
-
-            <!---728x90--->
-
-        </div>
-        <!-- qualification section -->
-        <section class="w3l-timeline-1 py-5">
-            <div class="container py-lg-5 py-4">
-                <div class="title-heading-w3 text-center mb-sm-5 mb-4">
-                    <h5 class="title-small">Resume</h5>
-                    <h3 class="title-style">Awesome Journey</h3>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <h5 class="sub-title-timeline"><i class="fas fa-graduation-cap"></i> Education</h5>
-                        <div class="timeline">
-                            <div class="column">
-                                <div class="title">
-                                    <h2>Bachelor in Computer Engineering</h2>
-                                    <!--Master in Computer Engineering -->
-                                </div>
-                                <div class="description">
-                                    <p>AKTU University</p>
-                                    <h6><i class="fas fa-calendar-alt"></i> 2020 - 2024</h6>
-                                </div>
-                            </div>
-                            <div class="column">
-                                <div class="title">
-                                    <h2>Intermediate in Computer Science</h2>
-                                </div>
-                                <div class="description">
-                                    <p>UP Board</p>
-                                    <h6><i class="fas fa-calendar-alt"></i> 2019 - 2020</h6>
-                                </div>
-                            </div>
-                            <div class="column">
-                                <div class="title">
-                                    <h2>High School in Computer Science</h2>
-                                </div>
-                                <div class="description">
-                                    <p>UP Board</p>
-                                    <h6><i class="fas fa-calendar-alt"></i> 2018 - 2019</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 mt-lg-0 mt-4">
-                        <h5 class="sub-title-timeline"><i class="fas fa-briefcase"></i> Experience</h5>
-                        <div class="timeline">
-                            <div class="column">
-                                <div class="title">
-                                    <h2>Full Stack Developer MEAN</h2>
-                                </div>
-                                <div class="description">
-                                    <p>Aeromus Technology Pvt. Ltd.</p>
-                                    <h6><i class="fas fa-calendar-alt"></i> 2022 - Current</h6>
-                                </div>
-                            </div>
-                            <div class="column">
-                                <div class="title">
-                                    <h2>Font End - Back End Developer</h2>
-                                </div>
-                                <div class="description">
-                                    <p>Aeromus Technology Pvt. Ltd.</p>
-                                    <h6><i class="fas fa-calendar-alt"></i> 2020 - 2021</h6>
-                                </div>
-                            </div>
-                            <div class="column">
-                                <div class="title">
-                                    <h2>HTML Developer</h2>
-                                </div>
-                                <div class="description">
-                                    <p>School Info</p>
-                                    <h6><i class="fas fa-calendar-alt"></i> 2019 - 2020</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- //qualification section -->
-
-        <!-- skills section -->
-        <section class="w3l-progress py-5" id="progress">
-            <div class="container py-md-5 py-4">
-                <div class="title-heading-w3 text-center mb-sm-5 mb-4">
-                    <h5 class="title-small mb-1">My Skills</h5>
-                    <h3 class="title-style">My Expertise Area</h3>
-                </div>
-                <div class="row py-lg-4">
-                    <div class="col-lg-6 pe-lg-5">
-                        <div class="progress-info info1">
-                            <h6 class="progress-tittle">Web Design <span class="">80%</span></h6>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped gradient-1" role="progressbar"
-                                    style="width: 80%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="progress-info info2">
-                            <h6 class="progress-tittle">HTML/CSS <span class="">95%</span>
-                            </h6>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped gradient-2" role="progressbar"
-                                    style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="progress-info info3">
-                            <h6 class="progress-tittle">JavaScript <span class="">60%</span></h6>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped gradient-3" role="progressbar"
-                                    style="width: 60%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="progress-info info4 mb-0">
-                            <h6 class="progress-tittle">React JS <span class="">85%</span></h6>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped gradient-4" role="progressbar"
-                                    style="width: 85%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 ps-lg-5 mt-lg-0 mt-5">
-                        <div class="progress-info info1">
-                            <h6 class="progress-tittle">Angular Js <span class="">80%</span></h6>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped gradient-1" role="progressbar"
-                                    style="width: 80%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="progress-info info2">
-                            <h6 class="progress-tittle">Bootstrap <span class="">95%</span>
-                            </h6>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped gradient-2" role="progressbar"
-                                    style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="progress-info info3">
-                            <h6 class="progress-tittle">Graphic Design <span class="">60%</span></h6>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped gradient-3" role="progressbar"
-                                    style="width: 60%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="progress-info info4 mb-0">
-                            <h6 class="progress-tittle">UI/UX Design <span class="">85%</span></h6>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped gradient-4" role="progressbar"
-                                    style="width: 85%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- //skills section -->
-
-        <!-- projects section -->
-        <section class="w3l-gallery pb-5" id="gallery">
-            <div class="container py-md-5 py-4">
-                <div class="title-heading-w3 text-center mb-sm-5 mb-4">
-                    <h5 class="title-small mb-1">Portfolio</h5>
-                    <h3 class="title-style">Some of my most recent projects</h3>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 item">
-                        <a href="https://minigans-c0cd9.web.app/" target="_blank" class="zoom d-block">
-                            <img class="card-img-bottom d-block" src="assets/images/minigans.png" alt="Card image cap">
-                            <span class="overlay__hover"></span>
-                            <span class="hover-content">
-                                <span class="title">Project 1 Minigans</span>
-                                <span class="content">Mini Project of College in this website student can do the quizzes
-                                    according to thier academics.</span>
-                            </span>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-md-6 item mt-md-0 mt-4">
-                        <a href="https://sciaku.com/" target="_blank" class="zoom d-block">
-                            <img class="card-img-bottom d-block" src="assets/images/sciaku.png" alt="Card image cap">
-                            <span class="overlay__hover"></span>
-                            <span class="hover-content">
-                                <span class="title">Project 2 Sciaku</span>
-                                <span class="content">In this website student can do the quizzes according to thier
-                                    academics.</span>
-                            </span>
-                        </a>
-                    </div>
-
-                    <!-- data-lightbox="example-set" data-title="Project 3" -->
-                    <div class="col-lg-4 col-md-6 item mt-lg-0 mt-4">
-                        <a href="https://foodster20.web.app/" target="_blank" class="zoom d-block">
-                            <img class="card-img-bottom d-block" src="assets/images/foodster.png" alt="Card image cap">
-                            <span class="overlay__hover"></span>
-                            <span class="hover-content">
-                                <span class="title">Project 3 Foodster</span>
-                                <span class="content">It is a food donation website.</span>
-                            </span>
-                        </a>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 item mt-4 pt-lg-2">
-                        <a href="https://store-sciaku.web.app/" target="_blank" class="zoom d-block">
-                            <img class="card-img-bottom d-block" src="assets/images/store.png" alt="Card image cap">
-                            <span class="overlay__hover"></span>
-                            <span class="hover-content">
-                                <span class="title">Project 4 Online Store</span>
-                                <span class="content">It is a online shopping website with Stripe Payment
-                                    Integration.</span>
-                            </span>
-                        </a>
-                    </div>
-
-                    <!-- <div class="col-lg-4 col-md-6 item mt-4 pt-lg-2">
-                        <a href="assets/images/g6.jpg" data-lightbox="example-set" data-title="Project 5"
-                            class="zoom d-block">
-                            <img class="card-img-bottom d-block" src="assets/images/g6.jpg" alt="Card image cap">
-                            <span class="overlay__hover"></span>
-                            <span class="hover-content">
-                                <span class="title">Project 5</span>
-                                <span class="content">Quisque ut lectus, eros et, sed commodo risus.</span>
-                            </span>
-                        </a>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 item mt-4 pt-lg-2">
-                        <a href="assets/images/g4.jpg" data-lightbox="example-set" data-title="Project 6"
-                            class="zoom d-block">
-                            <img class="card-img-bottom d-block" src="assets/images/g4.jpg" alt="Card image cap">
-                            <span class="overlay__hover"></span>
-                            <span class="hover-content">
-                                <span class="title">Project 6</span>
-                                <span class="content">Quisque ut lectus, eros et, sed commodo risus.</span>
-                            </span>
-                        </a>
-                    </div> -->
-                </div>
-            </div>
-        </section>
-        <!-- //projects section -->
-
-        <!-- home service section -->
-        <section class="w3l-servicesblock1 py-5" id="services">
-            <div class="container py-md-5 py-4">
-                <div class="title-heading-w3 text-center mb-sm-5 mb-4">
-                    <h5 class="title-small mb-1">What i do?</h5>
-                    <h3 class="title-style">How I can help your next project</h3>
-                </div>
-                <div class="w3-services-grids py-lg-4">
-                    <div class="fea-gd-vv row">
-                        <div class="col-lg-3 col-md-6">
-                            <div class="feature-gd icon-yellow">
-                                <div class="icon">
-                                    <i class="fas fa-laptop"></i>
-                                </div>
-                                <div class="icon-info">
-                                    <a href="#url">Web design<br> and development </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 mt-md-0 mt-4">
-                            <div class="feature-gd icon-vilot">
-                                <div class="icon">
-                                    <i class="fas fa-mobile-alt"></i>
-                                </div>
-                                <div class="icon-info">
-                                    <a href="#url">Mobile app<br> development</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 mt-lg-0 mt-md-5 mt-4">
-                            <div class="feature-gd icon-blue">
-                                <div class="icon">
-                                    <i class="fab fa-android"></i>
-                                </div>
-                                <div class="icon-info">
-                                    <a href="#url">Android app<br> development</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 mt-lg-0 mt-md-5 mt-4">
-                            <div class="feature-gd icon-red">
-                                <div class="icon">
-                                    <i class="fab fa-php"></i>
-                                </div>
-                                <div class="icon-info">
-                                    <a href="#url">Php Web<br> development</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 mt-md-5 mt-4">
-                            <div class="feature-gd icon-light-green">
-                                <div class="icon">
-                                    <i class="fab fa-apple"></i>
-                                </div>
-                                <div class="icon-info">
-                                    <a href="#url">iOS App<br> development </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 mt-md-5 mt-4">
-                            <div class="feature-gd icon-light-blue">
-                                <div class="icon">
-                                    <i class="fas fa-code"></i>
-                                </div>
-                                <div class="icon-info">
-                                    <a href="#url">JQuery & Java<br> programming</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 mt-md-5 mt-4">
-                            <div class="feature-gd icon-dark-green">
-                                <div class="icon">
-                                    <i class="fas fa-link"></i>
-                                </div>
-                                <div class="icon-info">
-                                    <a href="#url">Blockchain<br> development</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 mt-md-5 mt-4">
-                            <div class="feature-gd icon-pink">
-                                <div class="icon">
-                                    <i class="fas fa-code-branch"></i>
-                                </div>
-                                <div class="icon-info">
-                                    <a href="#url">.net program<br> development</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="text-center mt-5">
-                    <a href="services.html" class="btn btn-style">Learn More</a>
-                </div>
-            </div>
-        </section>
-        <!-- //home service section -->
-
-        <!-- testimonials section -->
-        <!-- <section class="w3l-testimonials py-5" id="testimonials">
-            <div class="container py-md-5 py-4">
-                <div class="row">
-                    <div class="col-md-10 mx-auto">
-                        <div class="owl-two owl-carousel owl-theme">
-                            <div class="item">
-                                <div class="slider-info mt-lg-4 mt-3">
-                                    <div class="message">
-                                        <img src="assets/images/quote.png" alt="" class="img-fluid mb-2" />
-                                        <p><q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sit id
-                                                accusantium
-                                                officia quod quasi necessitatibus perspiciatis Harum error provident
-                                                quibusdam tenetur.</q></p>
-                                        <div class="name mt-4 mb-4">
-                                            <h4>Phillip Hunt</h4>
-                                            <p>Subtitle goes here</p>
-                                        </div>
-                                    </div>
-                                    <div class="img-circle">
-                                        <img src="assets/images/c1.jpg" class="img-fluid radius-image" alt="client">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="slider-info mt-lg-4 mt-3">
-                                    <div class="message">
-                                        <img src="assets/images/quote.png" alt="" class="img-fluid mb-2" />
-                                        <p><q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sit id
-                                                accusantium
-                                                officia quod quasi necessitatibus perspiciatis Harum error provident
-                                                quibusdam tenetur.</q></p>
-                                        <div class="name mt-4 mb-4">
-                                            <h4>Sara Grant</h4>
-                                            <p>Subtitle goes here</p>
-                                        </div>
-                                    </div>
-                                    <div class="img-circle">
-                                        <img src="assets/images/c2.jpg" class="img-fluid radius-image" alt="client">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="slider-info mt-lg-4 mt-3">
-                                    <div class="message">
-                                        <img src="assets/images/quote.png" alt="" class="img-fluid mb-2" />
-                                        <p><q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sit id
-                                                accusantium
-                                                officia quod quasi necessitatibus perspiciatis Harum error provident
-                                                quibusdam tenetur.</q></p>
-                                        <div class="name mt-4 mb-4">
-                                            <h4>Luke Jacobs</h4>
-                                            <p>Subtitle goes here</p>
-                                        </div>
-                                    </div>
-                                    <div class="img-circle">
-                                        <img src="assets/images/c3.jpg" class="img-fluid radius-image" alt="client">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="slider-info mt-lg-4 mt-3">
-                                    <div class="message">
-                                        <img src="assets/images/quote.png" alt="" class="img-fluid mb-2" />
-                                        <p><q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sit id
-                                                accusantium
-                                                officia quod quasi necessitatibus perspiciatis Harum error provident
-                                                quibusdam tenetur.</q></p>
-                                        <div class="name mt-4 mb-4">
-                                            <h4>Claire Olson</h4>
-                                            <p>Subtitle goes here</p>
-                                        </div>
-                                    </div>
-                                    <div class="img-circle">
-                                        <img src="assets/images/c4.jpg" class="img-fluid radius-image" alt="client">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <!-- //testimonials section -->
-
-        <!-- footer -->
-        <footer class="footer-w3ls text-center py-5">
-            <div class="container pt-4">
-                <div class="mx-auto" style="max-width:600px;">
-                    <a href="index.html" class="footer-logo py-1">
-                        <i class="fab fa-google"></i><i class="fab fa-pinterest-p"></i>.
-                    </a>
-                    <!-- <p class="mt-4 text-white">Itaque earum rerum hic tenetur asaItaque
-                        earum rerum hic tenetur asap iente delectus ac elit in
-                        coeiciendis maiores.</p> -->
-                    <div class="social-icons-main mt-4 pb-3">
-                        <ul class="social-icons3">
-                            <li>
-                                <a href="https://www.facebook.com/gyan.prakash.7985" target="blank">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/aeromusgyan" target="blank">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/gyan-prakash-686740220" target="blank">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </a>
-                            </li>
-                            <!-- <li>
-                            <a href="#dribbble">
-                                <i class="fab fa-dribbble"></i>
-                            </a>
-                        </li> -->
-                            <li>
-                                <a href="https://www.instagram.com/aeromus.technical/" target="blank">
-                                    <i class="fab fa-instagram"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- copyright -->
-                <p class="copy-right-w3 text-white mt-5 pt-4">© 2022 Gyan Prakash. All rights reserved | Design by
-                    <a href="https://gyanport.netlify.app/" target="_blank"> Gyan Prakash</a>
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center justify-center px-6 pt-20">
+        <div class="container mx-auto text-center">
+            <div class="animate-fade-in-up">
+                <h2 class="text-5xl md:text-7xl font-bold mb-4">
+                    Hi, I'm <span class="gradient-text">Gyan Prakash</span>
+                </h2>
+                <p class="text-xl md:text-2xl text-gray-400 mb-6">
+                    Full Stack Developer | Angular Associate Developer
                 </p>
+                <p class="text-lg text-gray-500 mb-8 max-w-2xl mx-auto">
+                    Passionate about building scalable web applications with 4+ years of experience in Angular, Node.js, and Spring Boot
+                </p>
+                <div class="flex justify-center space-x-4 mb-8">
+                    <a href="https://github.com/AeromusGyan" target="_blank" class="bg-gray-800 hover:bg-gray-700 p-3 rounded-full transition">
+                        <i class="fab fa-github text-2xl"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/gyankaknowledge" target="_blank" class="bg-gray-800 hover:bg-gray-700 p-3 rounded-full transition">
+                        <i class="fab fa-linkedin text-2xl"></i>
+                    </a>
+                    <a href="https://leetcode.com/u/codergyanprakash/" target="_blank" class="bg-gray-800 hover:bg-gray-700 p-3 rounded-full transition">
+                        <i class="fas fa-code text-2xl"></i>
+                    </a>
+                    <a href="mailto:codergyanprakash@gmail.com" class="bg-gray-800 hover:bg-gray-700 p-3 rounded-full transition">
+                        <i class="fas fa-envelope text-2xl"></i>
+                    </a>
+                </div>
+                <div class="flex justify-center space-x-4">
+                    <a href="#contact" class="bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 px-8 py-3 rounded-lg font-semibold transition">
+                        Get In Touch
+                    </a>
+                    <a href="#" id="download-resume" class="border border-purple-600 hover:bg-purple-600 px-8 py-3 rounded-lg font-semibold transition">
+                        Download Resume
+                    </a>
+                </div>
             </div>
-        </footer>
-        <!-- //footer -->
+        </div>
+    </section>
 
-        <!-- Js scripts -->
-        <!-- move top -->
-        <button onclick="topFunction()" id="movetop" title="Go to top">
-            <span class="fas fa-level-up-alt" aria-hidden="true"></span>
-        </button>
-        <script>
-            // When the user scrolls down 20px from the top of the document, show the button
-            window.onscroll = function () {
-                scrollFunction()
+    <!-- About Section -->
+    <section id="about" class="py-20 px-6 bg-gray-800/50">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="text-4xl font-bold mb-12 text-center gradient-text">About Me</h2>
+            <div class="bg-gray-800 p-8 rounded-xl shadow-xl">
+                <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+                    Passionate Full Stack Developer with over 4 years of hands-on experience, including 2.5+ years in the industry, developing and maintaining scalable web applications using Angular, Node.js, Java and Spring Boot.
+                </p>
+                <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+                    Skilled in RESTful API integration, Agile development, and cloud deployment on AWS and Firebase. A Certified Angular Developer known for improving application performance by up to 30% and guiding junior developers through best practices and code reviews.
+                </p>
+                <p class="text-lg text-gray-300 leading-relaxed">
+                    Strong foundation in Data Structures and Algorithms (DSA) with a problem-solving mindset and a drive to build efficient, user-focused solutions.
+                </p>
+                
+                <div class="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4">
+                    <div class="text-center">
+                        <h3 class="text-3xl font-bold gradient-text">4+</h3>
+                        <p class="text-gray-400">Years Experience</p>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="text-3xl font-bold gradient-text">5+</h3>
+                        <p class="text-gray-400">Projects Deployed</p>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="text-3xl font-bold gradient-text">30%</h3>
+                        <p class="text-gray-400">Performance Boost</p>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="text-3xl font-bold gradient-text">100%</h3>
+                        <p class="text-gray-400">Client Satisfaction</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 px-6">
+        <div class="container mx-auto max-w-5xl">
+            <h2 class="text-4xl font-bold mb-12 text-center gradient-text">Work Experience</h2>
+            
+            <div class="space-y-8">
+                <!-- Experience 1 -->
+                <div class="timeline-item">
+                    <div class="bg-gray-800 p-6 rounded-xl hover:bg-gray-750 transition">
+                        <div class="flex justify-between items-start mb-3">
+                            <div>
+                                <h3 class="text-2xl font-bold text-purple-400">Software Developer</h3>
+                                <p class="text-gray-400">Elite Mindz PVT. LTD.</p>
+                            </div>
+                            <span class="text-sm text-gray-500">March 2025 – Present</span>
+                        </div>
+                        <ul class="list-disc list-inside text-gray-300 space-y-2">
+                            <li>Developing ERP, CRM, and Procurement SAAS software using Angular 18+, Node.js, NestJs, and MySQL</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Experience 2 -->
+                <div class="timeline-item">
+                    <div class="bg-gray-800 p-6 rounded-xl hover:bg-gray-750 transition">
+                        <div class="flex justify-between items-start mb-3">
+                            <div>
+                                <h3 class="text-2xl font-bold text-purple-400">Angular Developer</h3>
+                                <p class="text-gray-400">Chaffer Business Solutions Pvt. Ltd.</p>
+                            </div>
+                            <span class="text-sm text-gray-500">Jan 2024 – Mar 2025</span>
+                        </div>
+                        <ul class="list-disc list-inside text-gray-300 space-y-2">
+                            <li>Developed travel booking applications (Flight, Bus, Hotel) using Angular 17+</li>
+                            <li>Integrated Razorpay Payment Gateway for seamless transactions</li>
+                            <li>Increased API performance by 20% through backend optimization</li>
+                            <li>Deployed applications using Nginx, improving performance by 15%</li>
+                            <li>Mentored interns and junior developers in Angular best practices</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Experience 3 -->
+                <div class="timeline-item">
+                    <div class="bg-gray-800 p-6 rounded-xl hover:bg-gray-750 transition">
+                        <div class="flex justify-between items-start mb-3">
+                            <div>
+                                <h3 class="text-2xl font-bold text-purple-400">Angular Developer</h3>
+                                <p class="text-gray-400">Oreation Technology Pvt. Ltd.</p>
+                            </div>
+                            <span class="text-sm text-gray-500">Jul 2023 – Jan 2024</span>
+                        </div>
+                        <ul class="list-disc list-inside text-gray-300 space-y-2">
+                            <li>Developed e-commerce websites like JustMyBikes and MedOneChemist</li>
+                            <li>Improved video streaming by 30% using M3U8 on EdTech platform</li>
+                            <li>Integrated API services for enhanced user experience</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Experience 4 -->
+                <div class="timeline-item">
+                    <div class="bg-gray-800 p-6 rounded-xl hover:bg-gray-750 transition">
+                        <div class="flex justify-between items-start mb-3">
+                            <div>
+                                <h3 class="text-2xl font-bold text-purple-400">Full Stack Developer Intern</h3>
+                                <p class="text-gray-400">Infosys Springboard</p>
+                            </div>
+                            <span class="text-sm text-gray-500">Jan 2023 – May 2023</span>
+                        </div>
+                        <ul class="list-disc list-inside text-gray-300 space-y-2">
+                            <li>Created automated course scheduling system using Angular and Spring Boot</li>
+                            <li>Designed admin dashboards reducing scheduling errors by 40%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 px-6 bg-gray-800/50">
+        <div class="container mx-auto max-w-6xl">
+            <h2 class="text-4xl font-bold mb-12 text-center gradient-text">Featured Projects</h2>
+            
+            <!-- Filter Buttons -->
+            <div class="flex flex-wrap justify-center gap-3 mb-12">
+                <button class="filter-btn active px-6 py-2 rounded-full bg-purple-600 hover:bg-purple-700 transition" data-filter="all">All Projects</button>
+                <button class="filter-btn px-6 py-2 rounded-full bg-gray-700 hover:bg-gray-600 transition" data-filter="web">Web Apps</button>
+                <button class="filter-btn px-6 py-2 rounded-full bg-gray-700 hover:bg-gray-600 transition" data-filter="ecommerce">E-commerce</button>
+                <button class="filter-btn px-6 py-2 rounded-full bg-gray-700 hover:bg-gray-600 transition" data-filter="tools">Tools</button>
+                <button class="filter-btn px-6 py-2 rounded-full bg-gray-700 hover:bg-gray-600 transition" data-filter="gaming">Gaming</button>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="projects-grid">
+                <!-- Project 1: BHU Bandish Editor -->
+                <div class="project-card bg-gray-800 rounded-xl overflow-hidden card-hover shadow-xl" data-category="web tools">
+                    <div class="h-48 bg-gradient-to-br from-pink-600 to-rose-600 flex items-center justify-center relative overflow-hidden">
+                        <i class="fas fa-music text-6xl text-white opacity-50"></i>
+                        <div class="absolute top-2 right-2">
+                            <span class="bg-pink-500 text-xs px-3 py-1 rounded-full">2 months</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">BHU Bandish Editor</h3>
+                        <p class="text-gray-400 mb-3 text-sm">Web-based music composition tool for creating and editing traditional Indian bandishes with intuitive interface</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-xs bg-pink-600 px-2 py-1 rounded">Angular 18</span>
+                            <span class="text-xs bg-pink-600 px-2 py-1 rounded">Tailwind CSS</span>
+                            <span class="text-xs bg-pink-600 px-2 py-1 rounded">Node.js</span>
+                        </div>
+                        <div class="flex gap-2">
+                            <button onclick="openProjectModal(0)" class="flex-1 bg-pink-600 hover:bg-pink-700 px-4 py-2 rounded text-sm transition">
+                                <i class="fas fa-eye mr-1"></i> Details
+                            </button>
+                            <a href="https://bhubandish-demo.vercel.app" target="_blank" class="flex-1 border border-pink-600 hover:bg-pink-600 px-4 py-2 rounded text-sm transition text-center">
+                                <i class="fas fa-external-link-alt mr-1"></i> Live
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Sciaku Learning Platform -->
+                <div class="project-card bg-gray-800 rounded-xl overflow-hidden card-hover shadow-xl" data-category="web">
+                    <div class="h-48 bg-gradient-to-br from-blue-600 to-cyan-600 flex items-center justify-center relative">
+                        <i class="fas fa-graduation-cap text-6xl text-white opacity-50"></i>
+                        <div class="absolute top-2 right-2">
+                            <span class="bg-blue-500 text-xs px-3 py-1 rounded-full">4 months</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Sciaku Learning Platform</h3>
+                        <p class="text-gray-400 mb-3 text-sm">Comprehensive online learning platform with three-tier user system, courses, quizzes, and integrated payment gateway</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-xs bg-blue-600 px-2 py-1 rounded">Angular 17</span>
+                            <span class="text-xs bg-blue-600 px-2 py-1 rounded">Firebase</span>
+                            <span class="text-xs bg-blue-600 px-2 py-1 rounded">Stripe</span>
+                        </div>
+                        <div class="flex gap-2">
+                            <button onclick="openProjectModal(1)" class="flex-1 bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded text-sm transition">
+                                <i class="fas fa-eye mr-1"></i> Details
+                            </button>
+                            <a href="https://sciaku-demo.vercel.app" target="_blank" class="flex-1 border border-blue-600 hover:bg-blue-600 px-4 py-2 rounded text-sm transition text-center">
+                                <i class="fas fa-external-link-alt mr-1"></i> Live
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Rohami Gaming Platform -->
+                <div class="project-card bg-gray-800 rounded-xl overflow-hidden card-hover shadow-xl" data-category="gaming web">
+                    <div class="h-48 bg-gradient-to-br from-green-600 to-emerald-600 flex items-center justify-center relative">
+                        <i class="fas fa-gamepad text-6xl text-white opacity-50"></i>
+                        <div class="absolute top-2 right-2">
+                            <span class="bg-green-500 text-xs px-3 py-1 rounded-full">3 months</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Rohami Gaming Platform</h3>
+                        <p class="text-gray-400 mb-3 text-sm">Real-time multiplayer gaming platform featuring Ludo and color prediction games with WebSocket integration</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-xs bg-green-600 px-2 py-1 rounded">Angular 16</span>
+                            <span class="text-xs bg-green-600 px-2 py-1 rounded">Spring Boot</span>
+                            <span class="text-xs bg-green-600 px-2 py-1 rounded">WebSocket</span>
+                        </div>
+                        <div class="flex gap-2">
+                            <button onclick="openProjectModal(2)" class="flex-1 bg-green-600 hover:bg-green-700 px-4 py-2 rounded text-sm transition">
+                                <i class="fas fa-eye mr-1"></i> Details
+                            </button>
+                            <a href="https://rohami-demo.vercel.app" target="_blank" class="flex-1 border border-green-600 hover:bg-green-600 px-4 py-2 rounded text-sm transition text-center">
+                                <i class="fas fa-external-link-alt mr-1"></i> Live
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Autonome Project Management -->
+                <div class="project-card bg-gray-800 rounded-xl overflow-hidden card-hover shadow-xl" data-category="web tools">
+                    <div class="h-48 bg-gradient-to-br from-orange-600 to-red-600 flex items-center justify-center relative">
+                        <i class="fas fa-tasks text-6xl text-white opacity-50"></i>
+                        <div class="absolute top-2 right-2">
+                            <span class="bg-orange-500 text-xs px-3 py-1 rounded-full">3 months</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Autonome Project Management</h3>
+                        <p class="text-gray-400 mb-3 text-sm">Universal project management tool with Firebase authentication, real-time collaboration, and task tracking</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-xs bg-orange-600 px-2 py-1 rounded">Angular 15</span>
+                            <span class="text-xs bg-orange-600 px-2 py-1 rounded">Firebase</span>
+                            <span class="text-xs bg-orange-600 px-2 py-1 rounded">RxJS</span>
+                        </div>
+                        <div class="flex gap-2">
+                            <button onclick="openProjectModal(3)" class="flex-1 bg-orange-600 hover:bg-orange-700 px-4 py-2 rounded text-sm transition">
+                                <i class="fas fa-eye mr-1"></i> Details
+                            </button>
+                            <a href="https://autonome-demo.vercel.app" target="_blank" class="flex-1 border border-orange-600 hover:bg-orange-600 px-4 py-2 rounded text-sm transition text-center">
+                                <i class="fas fa-external-link-alt mr-1"></i> Live
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5: Shopping Platform -->
+                <div class="project-card bg-gray-800 rounded-xl overflow-hidden card-hover shadow-xl" data-category="ecommerce web">
+                    <div class="h-48 bg-gradient-to-br from-violet-600 to-purple-600 flex items-center justify-center relative">
+                        <i class="fas fa-shopping-cart text-6xl text-white opacity-50"></i>
+                        <div class="absolute top-2 right-2">
+                            <span class="bg-violet-500 text-xs px-3 py-1 rounded-full">2 months</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Shopping Platform</h3>
+                        <p class="text-gray-400 mb-3 text-sm">Full-featured e-commerce platform with advanced product filtering and Stripe payment integration</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-xs bg-violet-600 px-2 py-1 rounded">Angular 16</span>
+                            <span class="text-xs bg-violet-600 px-2 py-1 rounded">Node.js</span>
+                            <span class="text-xs bg-violet-600 px-2 py-1 rounded">Stripe</span>
+                        </div>
+                        <div class="flex gap-2">
+                            <button onclick="openProjectModal(4)" class="flex-1 bg-violet-600 hover:bg-violet-700 px-4 py-2 rounded text-sm transition">
+                                <i class="fas fa-eye mr-1"></i> Details
+                            </button>
+                            <a href="https://shopping-demo.vercel.app" target="_blank" class="flex-1 border border-violet-600 hover:bg-violet-600 px-4 py-2 rounded text-sm transition text-center">
+                                <i class="fas fa-external-link-alt mr-1"></i> Live
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6: Foodster NGO Website -->
+                <div class="project-card bg-gray-800 rounded-xl overflow-hidden card-hover shadow-xl" data-category="web">
+                    <div class="h-48 bg-gradient-to-br from-yellow-600 to-orange-600 flex items-center justify-center relative">
+                        <i class="fas fa-hand-holding-heart text-6xl text-white opacity-50"></i>
+                        <div class="absolute top-2 right-2">
+                            <span class="bg-yellow-500 text-xs px-3 py-1 rounded-full">1.5 months</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Foodster NGO Website</h3>
+                        <p class="text-gray-400 mb-3 text-sm">Food donation platform connecting donors with NGOs, featuring donation tracking and volunteer management</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-xs bg-yellow-600 px-2 py-1 rounded">Angular 17</span>
+                            <span class="text-xs bg-yellow-600 px-2 py-1 rounded">Firebase</span>
+                            <span class="text-xs bg-yellow-600 px-2 py-1 rounded">Bootstrap</span>
+                        </div>
+                        <div class="flex gap-2">
+                            <button onclick="openProjectModal(5)" class="flex-1 bg-yellow-600 hover:bg-yellow-700 px-4 py-2 rounded text-sm transition">
+                                <i class="fas fa-eye mr-1"></i> Details
+                            </button>
+                            <a href="https://foodster-demo.vercel.app" target="_blank" class="flex-1 border border-yellow-600 hover:bg-yellow-600 px-4 py-2 rounded text-sm transition text-center">
+                                <i class="fas fa-external-link-alt mr-1"></i> Live
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 7: CRM OnlineEssentialOil -->
+                <div class="project-card bg-gray-800 rounded-xl overflow-hidden card-hover shadow-xl" data-category="web ecommerce">
+                    <div class="h-48 bg-gradient-to-br from-purple-600 to-indigo-600 flex items-center justify-center relative">
+                        <i class="fas fa-users-cog text-6xl text-white opacity-50"></i>
+                        <div class="absolute top-2 right-2">
+                            <span class="bg-purple-500 text-xs px-3 py-1 rounded-full">3 months</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">OnlineEssentialOil CRM</h3>
+                        <p class="text-gray-400 mb-3 text-sm">Advanced CRM system with WhatsApp Cloud API integration for automated customer communication</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-xs bg-purple-600 px-2 py-1 rounded">Angular 18</span>
+                            <span class="text-xs bg-purple-600 px-2 py-1 rounded">Node.js</span>
+                            <span class="text-xs bg-purple-600 px-2 py-1 rounded">WhatsApp API</span>
+                        </div>
+                        <div class="flex gap-2">
+                            <button onclick="openProjectModal(6)" class="flex-1 bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded text-sm transition">
+                                <i class="fas fa-eye mr-1"></i> Details
+                            </button>
+                            <a href="https://onlineessentialoil.com" target="_blank" class="flex-1 border border-purple-600 hover:bg-purple-600 px-4 py-2 rounded text-sm transition text-center">
+                                <i class="fas fa-external-link-alt mr-1"></i> Live
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 8: MINIGANS College Website -->
+                <div class="project-card bg-gray-800 rounded-xl overflow-hidden card-hover shadow-xl" data-category="web">
+                    <div class="h-48 bg-gradient-to-br from-teal-600 to-cyan-600 flex items-center justify-center relative">
+                        <i class="fas fa-university text-6xl text-white opacity-50"></i>
+                        <div class="absolute top-2 right-2">
+                            <span class="bg-teal-500 text-xs px-3 py-1 rounded-full">2 months</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">MINIGANS College Portal</h3>
+                        <p class="text-gray-400 mb-3 text-sm">College mini-project showcasing vision, mission, and interactive quiz platform for students</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-xs bg-teal-600 px-2 py-1 rounded">Angular 14</span>
+                            <span class="text-xs bg-teal-600 px-2 py-1 rounded">MySQL</span>
+                            <span class="text-xs bg-teal-600 px-2 py-1 rounded">Bootstrap</span>
+                        </div>
+                        <div class="flex gap-2">
+                            <button onclick="openProjectModal(7)" class="flex-1 bg-teal-600 hover:bg-teal-700 px-4 py-2 rounded text-sm transition">
+                                <i class="fas fa-eye mr-1"></i> Details
+                            </button>
+                            <a href="https://minigans-demo.vercel.app" target="_blank" class="flex-1 border border-teal-600 hover:bg-teal-600 px-4 py-2 rounded text-sm transition text-center">
+                                <i class="fas fa-external-link-alt mr-1"></i> Live
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 9: Python WhatsApp Bot -->
+                <div class="project-card bg-gray-800 rounded-xl overflow-hidden card-hover shadow-xl" data-category="tools">
+                    <div class="h-48 bg-gradient-to-br from-green-700 to-lime-600 flex items-center justify-center relative">
+                        <i class="fab fa-whatsapp text-6xl text-white opacity-50"></i>
+                        <div class="absolute top-2 right-2">
+                            <span class="bg-green-500 text-xs px-3 py-1 rounded-full">1 month</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">WhatsApp Scheduler Bot</h3>
+                        <p class="text-gray-400 mb-3 text-sm">Python-based automation bot for scheduling and sending WhatsApp messages with custom timing</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-xs bg-green-600 px-2 py-1 rounded">Python</span>
+                            <span class="text-xs bg-green-600 px-2 py-1 rounded">Selenium</span>
+                            <span class="text-xs bg-green-600 px-2 py-1 rounded">WhatsApp Web</span>
+                        </div>
+                        <div class="flex gap-2">
+                            <button onclick="openProjectModal(8)" class="flex-1 bg-green-600 hover:bg-green-700 px-4 py-2 rounded text-sm transition">
+                                <i class="fas fa-eye mr-1"></i> Details
+                            </button>
+                            <a href="https://github.com/gyanprakash/whatsapp-bot" target="_blank" class="flex-1 border border-green-600 hover:bg-green-600 px-4 py-2 rounded text-sm transition text-center">
+                                <i class="fab fa-github mr-1"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 10: Schedulo Automation -->
+                <div class="project-card bg-gray-800 rounded-xl overflow-hidden card-hover shadow-xl" data-category="web tools">
+                    <div class="h-48 bg-gradient-to-br from-indigo-600 to-blue-700 flex items-center justify-center relative">
+                        <i class="fas fa-calendar-alt text-6xl text-white opacity-50"></i>
+                        <div class="absolute top-2 right-2">
+                            <span class="bg-indigo-500 text-xs px-3 py-1 rounded-full">4 months</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Schedulo - Infosys Internship</h3>
+                        <p class="text-gray-400 mb-3 text-sm">Automated course scheduling system with admin dashboard reducing scheduling errors by 40%</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-xs bg-indigo-600 px-2 py-1 rounded">Angular 13</span>
+                            <span class="text-xs bg-indigo-600 px-2 py-1 rounded">Spring Boot</span>
+                            <span class="text-xs bg-indigo-600 px-2 py-1 rounded">MySQL</span>
+                        </div>
+                        <div class="flex gap-2">
+                            <button onclick="openProjectModal(9)" class="flex-1 bg-indigo-600 hover:bg-indigo-700 px-4 py-2 rounded text-sm transition">
+                                <i class="fas fa-eye mr-1"></i> Details
+                            </button>
+                            <a href="https://schedulo-demo.vercel.app" target="_blank" class="flex-1 border border-indigo-600 hover:bg-indigo-600 px-4 py-2 rounded text-sm transition text-center">
+                                <i class="fas fa-external-link-alt mr-1"></i> Live
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 11: Essential Oils E-commerce -->
+                <div class="project-card bg-gray-800 rounded-xl overflow-hidden card-hover shadow-xl" data-category="ecommerce web">
+                    <div class="h-48 bg-gradient-to-br from-emerald-600 to-teal-600 flex items-center justify-center relative">
+                        <i class="fas fa-leaf text-6xl text-white opacity-50"></i>
+                        <div class="absolute top-2 right-2">
+                            <span class="bg-emerald-500 text-xs px-3 py-1 rounded-full">3 months</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Plant & Seed Oils E-commerce</h3>
+                        <p class="text-gray-400 mb-3 text-sm">Full-featured e-commerce website for selling essential oils with inventory management and order tracking</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-xs bg-emerald-600 px-2 py-1 rounded">Angular 17</span>
+                            <span class="text-xs bg-emerald-600 px-2 py-1 rounded">Node.js</span>
+                            <span class="text-xs bg-emerald-600 px-2 py-1 rounded">MySQL</span>
+                        </div>
+                        <div class="flex gap-2">
+                            <button onclick="openProjectModal(10)" class="flex-1 bg-emerald-600 hover:bg-emerald-700 px-4 py-2 rounded text-sm transition">
+                                <i class="fas fa-eye mr-1"></i> Details
+                            </button>
+                            <a href="https://plantandseeds-demo.vercel.app" target="_blank" class="flex-1 border border-emerald-600 hover:bg-emerald-600 px-4 py-2 rounded text-sm transition text-center">
+                                <i class="fas fa-external-link-alt mr-1"></i> Live
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 12: Quotebox Video Converter -->
+                <div class="project-card bg-gray-800 rounded-xl overflow-hidden card-hover shadow-xl" data-category="tools">
+                    <div class="h-48 bg-gradient-to-br from-red-600 to-pink-600 flex items-center justify-center relative">
+                        <i class="fas fa-video text-6xl text-white opacity-50"></i>
+                        <div class="absolute top-2 right-2">
+                            <span class="bg-red-500 text-xs px-3 py-1 rounded-full">2 months</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Quotebox Video Converter</h3>
+                        <p class="text-gray-400 mb-3 text-sm">Advanced video downloader and customizer using FFMPEG for format conversion and editing</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-xs bg-red-600 px-2 py-1 rounded">Angular 16</span>
+                            <span class="text-xs bg-red-600 px-2 py-1 rounded">Node.js</span>
+                            <span class="text-xs bg-red-600 px-2 py-1 rounded">FFMPEG</span>
+                        </div>
+                        <div class="flex gap-2">
+                            <button onclick="openProjectModal(11)" class="flex-1 bg-red-600 hover:bg-red-700 px-4 py-2 rounded text-sm transition">
+                                <i class="fas fa-eye mr-1"></i> Details
+                            </button>
+                            <a href="https://quotebox-demo.vercel.app" target="_blank" class="flex-1 border border-red-600 hover:bg-red-600 px-4 py-2 rounded text-sm transition text-center">
+                                <i class="fas fa-external-link-alt mr-1"></i> Live
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 13: Sahib Darbar Membership -->
+                <div class="project-card bg-gray-800 rounded-xl overflow-hidden card-hover shadow-xl" data-category="web">
+                    <div class="h-48 bg-gradient-to-br from-amber-600 to-yellow-600 flex items-center justify-center relative">
+                        <i class="fas fa-user-plus text-6xl text-white opacity-50"></i>
+                        <div class="absolute top-2 right-2">
+                            <span class="bg-amber-500 text-xs px-3 py-1 rounded-full">1.5 months</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Sahib Darbar Membership</h3>
+                        <p class="text-gray-400 mb-3 text-sm">Membership registration portal with automated email notifications and member database management</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-xs bg-amber-600 px-2 py-1 rounded">Angular 15</span>
+                            <span class="text-xs bg-amber-600 px-2 py-1 rounded">Firebase</span>
+                            <span class="text-xs bg-amber-600 px-2 py-1 rounded">Email.js</span>
+                        </div>
+                        <div class="flex gap-2">
+                            <button onclick="openProjectModal(12)" class="flex-1 bg-amber-600 hover:bg-amber-700 px-4 py-2 rounded text-sm transition">
+                                <i class="fas fa-eye mr-1"></i> Details
+                            </button>
+                            <a href="https://sahibdarbar-demo.vercel.app" target="_blank" class="flex-1 border border-amber-600 hover:bg-amber-600 px-4 py-2 rounded text-sm transition text-center">
+                                <i class="fas fa-external-link-alt mr-1"></i> Live
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 14: Vega6 Blog Assessment -->
+                <div class="project-card bg-gray-800 rounded-xl overflow-hidden card-hover shadow-xl" data-category="web">
+                    <div class="h-48 bg-gradient-to-br from-slate-600 to-gray-600 flex items-center justify-center relative">
+                        <i class="fas fa-blog text-6xl text-white opacity-50"></i>
+                        <div class="absolute top-2 right-2">
+                            <span class="bg-slate-500 text-xs px-3 py-1 rounded-full">1 month</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Vega6 Blog Platform</h3>
+                        <p class="text-gray-400 mb-3 text-sm">Assessment project featuring dynamic blog creation, editing, and user authentication system</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-xs bg-slate-600 px-2 py-1 rounded">Angular 16</span>
+                            <span class="text-xs bg-slate-600 px-2 py-1 rounded">Node.js</span>
+                            <span class="text-xs bg-slate-600 px-2 py-1 rounded">MongoDB</span>
+                        </div>
+                        <div class="flex gap-2">
+                            <button onclick="openProjectModal(13)" class="flex-1 bg-slate-600 hover:bg-slate-700 px-4 py-2 rounded text-sm transition">
+                                <i class="fas fa-eye mr-1"></i> Details
+                            </button>
+                            <a href="https://vega6-demo.vercel.app" target="_blank" class="flex-1 border border-slate-600 hover:bg-slate-600 px-4 py-2 rounded text-sm transition text-center">
+                                <i class="fas fa-external-link-alt mr-1"></i> Live
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="fixed inset-0 bg-black bg-opacity-75 hidden items-center justify-center z-50 p-4" onclick="closeProjectModal(event)">
+        <div class="bg-gray-800 rounded-xl max-w-4xl w-full max-h-[90vh] overflow-y-auto" onclick="event.stopPropagation()">
+            <div class="sticky top-0 bg-gray-800 border-b border-gray-700 p-6 flex justify-between items-center">
+                <h3 id="modalTitle" class="text-2xl font-bold gradient-text"></h3>
+                <button onclick="closeProjectModal()" class="text-gray-400 hover:text-white text-3xl">&times;</button>
+            </div>
+            
+            <div class="p-6">
+                <!-- Image/Video Section -->
+                <div id="modalMedia" class="mb-6 rounded-lg overflow-hidden bg-gray-900">
+                    <img id="modalImage" src="" alt="Project Screenshot" class="w-full h-auto hidden">
+                    <video id="modalVideo" controls class="w-full h-auto hidden">
+                        <source src="" type="video/mp4">
+                    </video>
+                    <div id="modalPlaceholder" class="h-64 flex items-center justify-center">
+                        <i class="fas fa-image text-6xl text-gray-600"></i>
+                    </div>
+                </div>
+
+                <!-- Project Details -->
+                <div class="space-y-4">
+                    <div>
+                        <h4 class="text-lg font-semibold mb-2 text-purple-400">Description</h4>
+                        <p id="modalDescription" class="text-gray-300"></p>
+                    </div>
+
+                    <div>
+                        <h4 class="text-lg font-semibold mb-2 text-purple-400">Technologies Used</h4>
+                        <div id="modalTechnologies" class="flex flex-wrap gap-2"></div>
+                    </div>
+
+                    <div>
+                        <h4 class="text-lg font-semibold mb-2 text-purple-400">Key Features</h4>
+                        <ul id="modalFeatures" class="list-disc list-inside text-gray-300 space-y-1"></ul>
+                    </div>
+
+                    <div>
+                        <h4 class="text-lg font-semibold mb-2 text-purple-400">My Role</h4>
+                        <p id="modalRole" class="text-gray-300"></p>
+                    </div>
+
+                    <div>
+                        <h4 class="text-lg font-semibold mb-2 text-purple-400">Project Duration</h4>
+                        <p id="modalDuration" class="text-gray-300"></p>
+                    </div>
+
+                    <div class="flex gap-4 pt-4">
+                        <a id="modalLiveLink" href="#" target="_blank" class="flex-1 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 px-6 py-3 rounded-lg font-semibold transition text-center">
+                            <i class="fas fa-external-link-alt mr-2"></i> View Live
+                        </a>
+                        <a id="modalGithubLink" href="#" target="_blank" class="flex-1 border border-purple-600 hover:bg-purple-600 px-6 py-3 rounded-lg font-semibold transition text-center">
+                            <i class="fab fa-github mr-2"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 px-6">
+        <div class="container mx-auto max-w-6xl">
+            <h2 class="text-4xl font-bold mb-12 text-center gradient-text">Skills & Technologies</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Frontend -->
+                <div class="bg-gray-800 p-6 rounded-xl">
+                    <h3 class="text-xl font-bold mb-4 text-purple-400">Frontend</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-badge bg-gray-700 px-3 py-1 rounded-full text-sm">Angular 10+</span>
+                        <span class="skill-badge bg-gray-700 px-3 py-1 rounded-full text-sm">RxJS</span>
+                        <span class="skill-badge bg-gray-700 px-3 py-1 rounded-full text-sm">NGRX/NGXS</span>
+                        <span class="skill-badge bg-gray-700 px-3 py-1 rounded-full text-sm">React</span>
+                        <span class="skill-badge bg-gray-700 px-3 py-1 rounded-full text-sm">Ionic</span>
+                        <span class="skill-badge bg-gray-700 px-3 py-1 rounded-full text-sm">HTML5</span>
+                        <span class="skill-badge bg-gray-700 px-3 py-1 rounded-full text-sm">CSS3</span>
+                        <span class="skill-badge bg-gray-700 px-3 py-1 rounded-full text-sm">Tailwind CSS</span>
+                        <span class="skill-badge bg-gray-700 px-3 py-1 rounded-full text-sm">Bootstrap</span>
+                    </div>
+                </div>
+
+                <!-- Backend -->
+                <div class="bg-gray-800 p-6 rounded-xl">
+                    <h3 class="text-xl font-bold mb-4 text-purple-400">Backend</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-badge bg-gray-700 px-3 py-1 rounded-full text-sm">Node.js</span>
+                        <span class="skill-badge bg-gray-700 px-3 py-1 rounded-full text-sm">Express.js</span>
+                        <span class="skill-badge bg-gray-700 px-3 py-1 rounded-full text-sm">NestJs</span>
+                        <span class="skill-badge bg-gray-700 px-3 py-1 rounded-full text-sm">Spring Boot</span>
+                        <span class="skill-badge bg-gray-700 px-3 py-1 rounded-full text-sm">Prisma</span>
+                    </div>
+                </div>
+
+                <!-- Languages -->
+                <div class="bg-gray-800 p-6 rounded-xl">
+                    <h3 class="text-xl font-bold mb-4 text-purple-400">Languages</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-badge bg-gray-700 px-3 py-1 rounded-full text-sm">JavaScript</span>
+                        <span class="skill-badge bg-gray-700 px-3 py-1 rounded-full text-sm">TypeScript</span>
+                        <span class="skill-badge bg-gray-700 px-3 py-1 rounded-full text-sm">Java</span>
+                    </div>
+                </div>
+
+                <!-- Database -->
+                <div class="bg-gray-800 p-6 rounded-xl">
+                    <h3 class="text-xl font-bold mb-4 text-purple-400">Database</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-badge bg-gray-700 px-3 py-1 rounded-full text-sm">MySQL</span>
+                        <span class="skill-badge bg-gray-700 px-3 py-1 rounded-full text-sm">MongoDB</span>
+                        <span class="skill-badge bg-gray-700 px-3 py-1 rounded-full text-sm">PostgreSQL</span>
+                        <span class="skill-badge bg-gray-700 px-3 py-1 rounded-full text-sm">Firebase</span>
+                        <span class="skill-badge bg-gray-700 px-3 py-1 rounded-full text-sm">Supabase</span>
+                    </div>
+                </div>
+
+                <!-- Tools & Platforms -->
+                <div class="bg-gray-800 p-6 rounded-xl">
+                    <h3 class="text-xl font-bold mb-4 text-purple-400">Tools & Platforms</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-badge bg-gray-700 px-3 py-1 rounded-full text-sm">Docker</span>
+                        <span class="skill-badge bg-gray-700 px-3 py-1 rounded-full text-sm">AWS</span>
+                        <span class="skill-badge bg-gray-700 px-3 py-1 rounded-full text-sm">GCP</span>
+                        <span class="skill-badge bg-gray-700 px-3 py-1 rounded-full text-sm">Nginx</span>
+                        <span class="skill-badge bg-gray-700 px-3 py-1 rounded-full text-sm">Git</span>
+                        <span class="skill-badge bg-gray-700 px-3 py-1 rounded-full text-sm">Jenkins</span>
+                        <span class="skill-badge bg-gray-700 px-3 py-1 rounded-full text-sm">Jira</span>
+                    </div>
+                </div>
+
+                <!-- Others -->
+                <div class="bg-gray-800 p-6 rounded-xl">
+                    <h3 class="text-xl font-bold mb-4 text-purple-400">Others</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-badge bg-gray-700 px-3 py-1 rounded-full text-sm">Agile/Scrum</span>
+                        <span class="skill-badge bg-gray-700 px-3 py-1 rounded-full text-sm">CI/CD</span>
+                        <span class="skill-badge bg-gray-700 px-3 py-1 rounded-full text-sm">WebSockets</span>
+                        <span class="skill-badge bg-gray-700 px-3 py-1 rounded-full text-sm">PWA</span>
+                        <span class="skill-badge bg-gray-700 px-3 py-1 rounded-full text-sm">Unit Testing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 px-6 bg-gray-800/50">
+        <div class="container mx-auto max-w-6xl">
+            <h2 class="text-4xl font-bold mb-12 text-center gradient-text">Testimonials</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-gray-800 p-6 rounded-xl shadow-xl card-hover">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center text-xl font-bold">
+                            PC
+                        </div>
+                        <div class="ml-3">
+                            <h4 class="font-bold">Pavan Chaudhary</h4>
+                            <p class="text-sm text-gray-400">Senior Tech Lead</p>
+                        </div>
+                    </div>
+                    <div class="text-yellow-400 mb-3">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-300 italic">
+                        "Gyan is an exceptional developer with a strong grasp of Angular and backend technologies. His ability to optimize performance and mentor junior developers is outstanding."
+                    </p>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-gray-800 p-6 rounded-xl shadow-xl card-hover">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-indigo-600 rounded-full flex items-center justify-center text-xl font-bold">
+                            DC
+                        </div>
+                        <div class="ml-3">
+                            <h4 class="font-bold">Deepak Chaudhary</h4>
+                            <p class="text-sm text-gray-400">Project Manager</p>
+                        </div>
+                    </div>
+                    <div class="text-yellow-400 mb-3">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-300 italic">
+                        "Working with Gyan has been a pleasure. He delivers high-quality code on time and communicates effectively throughout the development process. Highly recommended!"
+                    </p>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-gray-800 p-6 rounded-xl shadow-xl card-hover">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-pink-600 rounded-full flex items-center justify-center text-xl font-bold">
+                            SI
+                        </div>
+                        <div class="ml-3">
+                            <h4 class="font-bold">Shibbu Issac</h4>
+                            <p class="text-sm text-gray-400">CTO, Tech Startup</p>
+                        </div>
+                    </div>
+                    <div class="text-yellow-400 mb-3">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-300 italic">
+                        "Gyan's expertise in full-stack development helped us launch our product ahead of schedule. His problem-solving skills and attention to detail are remarkable."
+                    </p>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="bg-gray-800 p-6 rounded-xl shadow-xl card-hover">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center text-xl font-bold">
+                            TS
+                        </div>
+                        <div class="ml-3">
+                            <h4 class="font-bold">Tushar Sir</h4>
+                            <p class="text-sm text-gray-400">Founder, Plant and Seed Oils Pvt Ltd</p>
+                        </div>
+                    </div>
+                    <div class="text-yellow-400 mb-3">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-300 italic">
+                        "Gyan developed our OnlineEssentialOil CRM with seamless WhatsApp Cloud API integration. His technical expertise and dedication transformed our customer management system. Highly professional and reliable!"
+                    </p>
+                </div>
+
+                <!-- Testimonial 5 -->
+                <div class="bg-gray-800 p-6 rounded-xl shadow-xl card-hover">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-yellow-600 rounded-full flex items-center justify-center text-xl font-bold">
+                            AS
+                        </div>
+                        <div class="ml-3">
+                            <h4 class="font-bold">Anjali Shiel</h4>
+                            <p class="text-sm text-gray-400">Professor, BHU Music Department</p>
+                        </div>
+                    </div>
+                    <div class="text-yellow-400 mb-3">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-300 italic">
+                        "The BHU Bandish Editor that Gyan created is revolutionary for our music department. The intuitive interface makes composing traditional bandishes incredibly easy. A perfect blend of technology and art!"
+                    </p>
+                </div>
+
+                <!-- Testimonial 6 -->
+                <div class="bg-gray-800 p-6 rounded-xl shadow-xl card-hover">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center text-xl font-bold">
+                            VP
+                        </div>
+                        <div class="ml-3">
+                            <h4 class="font-bold">Ved Prakash</h4>
+                            <p class="text-sm text-gray-400">Director, Getege Edtech Pvt. Ltd.</p>
+                        </div>
+                    </div>
+                    <div class="text-yellow-400 mb-3">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-300 italic">
+                        "Gyan's implementation of M3U8 HLS video rendering on Getege platform and the Quotebox Video Downloader significantly improved our streaming performance. His innovative solutions exceeded our expectations!"
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-6">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="text-4xl font-bold mb-12 text-center gradient-text">Get In Touch</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="text-2xl font-bold mb-6">Contact Information</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-center">
+                            <i class="fas fa-envelope text-purple-400 text-xl w-8"></i>
+                            <a href="mailto:codergyanprakash@gmail.com" class="text-gray-300 hover:text-purple-400 transition">
+                                codergyanprakash@gmail.com
+                            </a>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-phone text-purple-400 text-xl w-8"></i>
+                            <a href="tel:+917985079740" class="text-gray-300 hover:text-purple-400 transition">
+                                +91 7985079740
+                            </a>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-map-marker-alt text-purple-400 text-xl w-8"></i>
+                            <span class="text-gray-300">Prayagraj, Uttar Pradesh, India</span>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-8">
+                        <h4 class="text-xl font-bold mb-4">Connect With Me</h4>
+                        <div class="flex space-x-4">
+                            <a href="https://github.com/AeromusGyan" target="_blank" class="bg-gray-800 hover:bg-purple-600 p-3 rounded-lg transition">
+                                <i class="fab fa-github text-2xl"></i>
+                            </a>
+                            <a href="https://linkedin.com/in/gyankaknowledge" target="_blank" class="bg-gray-800 hover:bg-purple-600 p-3 rounded-lg transition">
+                                <i class="fab fa-linkedin text-2xl"></i>
+                            </a>
+                            <a href="https://leetcode.com/u/codergyanprakash/" target="_blank" class="bg-gray-800 hover:bg-purple-600 p-3 rounded-lg transition">
+                                <i class="fas fa-code text-2xl"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div>
+                    <form id="contact-form" class="space-y-4">
+                        <div>
+                            <label class="block text-sm font-semibold mb-2">Name</label>
+                            <input type="text" name="name" required class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 focus:outline-none focus:border-purple-500 transition">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold mb-2">Email</label>
+                            <input type="email" name="email" required class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 focus:outline-none focus:border-purple-500 transition">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold mb-2">Subject</label>
+                            <input type="text" name="subject" required class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 focus:outline-none focus:border-purple-500 transition">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold mb-2">Message</label>
+                            <textarea name="message" rows="5" required class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 focus:outline-none focus:border-purple-500 transition"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 py-3 rounded-lg font-semibold transition">
+                            Send Message
+                        </button>
+                        <div id="form-message" class="text-center hidden"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 border-t border-gray-700 py-8 px-6">
+        <div class="container mx-auto text-center">
+            <p class="text-gray-400">
+                © 2022 - <span id="current-year"></span> Gyan Prakash. All rights reserved. Built with passion and code.
+            </p>
+            <p class="text-gray-500 mt-2">
+                Designed & Developed by Gyan Prakash
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const currentYear = document.getElementById('current-year');
+        currentYear.textContent = new Date().getFullYear();
+
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Smooth scroll for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Download Resume functionality
+        document.getElementById('download-resume').addEventListener('click', function(e) {
+            e.preventDefault();
+            window.open('https://drive.google.com/file/d/1DCp7O0fjk0hu1eEbZEdjd4vI3uQuz6pM/view?usp=drive_link', '_blank');
+        });
+
+        // Contact Form Submission (using FormSubmit.co)
+        document.getElementById('contact-form').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const formMessage = document.getElementById('form-message');
+            const submitBtn = e.target.querySelector('button[type="submit"]');
+            
+            // Get form data
+            const formData = new FormData(e.target);
+            const data = {
+                name: formData.get('name'),
+                email: formData.get('email'),
+                subject: formData.get('subject'),
+                message: formData.get('message')
             };
+            
+            // Show loading state
+            submitBtn.textContent = 'Sending...';
+            submitBtn.disabled = true;
+            
+            // Simulate sending email (in production, integrate with EmailJS or backend API)
+            setTimeout(() => {
+                formMessage.classList.remove('hidden');
+                formMessage.className = 'text-center text-green-400 mt-4';
+                formMessage.textContent = 'Message sent successfully! I will get back to you soon.';
+                
+                // Reset form
+                e.target.reset();
+                submitBtn.textContent = 'Send Message';
+                submitBtn.disabled = false;
+                
+                // Hide message after 5 seconds
+                setTimeout(() => {
+                    formMessage.classList.add('hidden');
+                }, 5000);
+            }, 1500);
+        });
 
-            function scrollFunction() {
-                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                    document.getElementById("movetop").style.display = "block";
-                } else {
-                    document.getElementById("movetop").style.display = "none";
+        // Scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
                 }
-            }
-
-            // When the user clicks on the button, scroll to the top of the document
-            function topFunction() {
-                document.body.scrollTop = 0;
-                document.documentElement.scrollTop = 0;
-            }
-        </script>
-        <!-- //move top -->
-
-        <!-- common jquery plugin -->
-        <script src="assets/js/jquery-3.3.1.min.js"></script>
-        <!-- //common jquery plugin -->
-
-        <!-- banner typig-text-->
-        <script>
-            const typedTextSpan = document.querySelector(".typed-text");
-            const cursorSpan = document.querySelector(".cursor");
-
-            const textArray = ["Developer", "Designer", "Freelancer"];
-            const typingDelay = 300;
-            const erasingDelay = 10;
-            const newTextDelay = 100; // Delay between current and next text
-            let textArrayIndex = 0;
-            let charIndex = 0;
-
-            function type() {
-                if (charIndex < textArray[textArrayIndex].length) {
-                    if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
-                    typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
-                    charIndex++;
-                    setTimeout(type, typingDelay);
-                } else {
-                    cursorSpan.classList.remove("typing");
-                    setTimeout(erase, newTextDelay);
-                }
-            }
-
-            function erase() {
-                if (charIndex > 0) {
-                    // add class 'typing' if there's none
-                    if (!cursorSpan.classList.contains("typing")) {
-                        cursorSpan.classList.add("typing");
-                    }
-                    typedTextSpan.textContent = textArray[textArrayIndex].substring(0, 0);
-                    charIndex--;
-                    setTimeout(erase, erasingDelay);
-                } else {
-                    cursorSpan.classList.remove("typing");
-                    textArrayIndex++;
-                    if (textArrayIndex >= textArray.length) textArrayIndex = 0;
-                    setTimeout(type, typingDelay);
-                }
-            }
-
-            document.addEventListener("DOMContentLoaded", function () { // On DOM Load initiate the effect
-                if (textArray.length) setTimeout(type, newTextDelay + 250);
             });
-        </script>
-        <!-- //banner typig-text-->
+        }, observerOptions);
 
-        <!-- libhtbox -->
-        <script src="assets/js/lightbox-plus-jquery.min.js"></script>
-        <!-- libhtbox -->
+        // Observe all sections
+        document.querySelectorAll('section').forEach(section => {
+            section.style.opacity = '0';
+            section.style.transform = 'translateY(30px)';
+            section.style.transition = 'all 0.6s ease-out';
+            observer.observe(section);
+        });
 
-        <!-- testimonials owlcarousel -->
-        <script src="assets/js/owl.carousel.js"></script>
-        <script>
-            $(document).ready(function () {
-                $('.owl-two').owlCarousel({
-                    loop: true,
-                    margin: 30,
-                    nav: false,
-                    responsiveClass: true,
-                    autoplay: true,
-                    autoplayTimeout: 5000,
-                    autoplaySpeed: 1000,
-                    autoplayHoverPause: false,
-                    responsive: {
-                        0: {
-                            items: 1,
-                            nav: false
-                        },
-                        480: {
-                            items: 1,
-                            nav: false
-                        },
-                        667: {
-                            items: 1,
-                            nav: false
-                        },
-                        1000: {
-                            items: 1,
-                            nav: false
-                        }
-                    }
-                })
-            })
-        </script>
-        <!-- //script for Testimonials-->
-
-        <!-- theme switch js (light and dark)-->
-        <script src="assets/js/theme-change.js"></script>
-        <!-- //theme switch js (light and dark)-->
-
-        <!-- MENU-JS -->
-        <script>
-            $(window).on("scroll", function () {
-                var scroll = $(window).scrollTop();
-
-                if (scroll >= 80) {
-                    $("#site-header").addClass("nav-fixed");
-                } else {
-                    $("#site-header").removeClass("nav-fixed");
+        // Active nav link on scroll
+        window.addEventListener('scroll', () => {
+            let current = '';
+            const sections = document.querySelectorAll('section');
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (pageYOffset >= sectionTop - 200) {
+                    current = section.getAttribute('id');
                 }
             });
 
-            //Main navigation Active Class Add Remove
-            $(".navbar-toggler").on("click", function () {
-                $("header").toggleClass("active");
-            });
-            $(document).on("ready", function () {
-                if ($(window).width() > 991) {
-                    $("header").removeClass("active");
+            document.querySelectorAll('nav a').forEach(link => {
+                link.classList.remove('text-purple-400');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('text-purple-400');
                 }
-                $(window).on("resize", function () {
-                    if ($(window).width() > 991) {
-                        $("header").removeClass("active");
+            });
+        });
+    
+        // Project Data
+        const projectsData = [
+            {
+                title: "BHU Bandish Editor",
+                description: "A comprehensive web-based music composition tool designed specifically for creating and editing traditional Indian bandishes. Features an intuitive drag-and-drop interface, real-time preview, and multiple export options including PDF and audio formats.",
+                technologies: ["Angular 18", "Tailwind CSS", "Node.js", "Web Audio API"],
+                features: [
+                    "Intuitive drag-and-drop interface for note placement",
+                    "Real-time composition preview with audio playback",
+                    "Export to PDF and multiple audio formats",
+                    "Collaboration features for multiple users"
+                ],
+                role: "Full Stack Developer",
+                duration: "2 months (Jun 2024 - Aug 2024)",
+                liveLink: "https://bhubandish-demo.vercel.app",
+                githubLink: "https://github.com/gyanprakash/bhu-bandish",
+                image: "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=800"
+            },
+            {
+                title: "Sciaku Learning Platform",
+                description: "A comprehensive online learning platform featuring a three-tier user system (Admin, Instructor, Student) with course management, quiz systems, blog integration, and secure payment processing through Stripe.",
+                technologies: ["Angular 17", "Firebase", "Stripe API", "RxJS"],
+                features: [
+                    "Three-tier user management system with role-based access",
+                    "Course creation with video lectures and quizzes",
+                    "Integrated payment gateway with Stripe",
+                    "Email campaign management for student engagement"
+                ],
+                role: "Full Stack Developer & Founder",
+                duration: "4 months (Jan 2024 - Apr 2024)",
+                liveLink: "https://sciaku-demo.vercel.app",
+                githubLink: "https://github.com/gyanprakash/sciaku",
+                image: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=800"
+            },
+            {
+                title: "Rohami Gaming Platform",
+                description: "Real-time multiplayer gaming platform featuring Ludo and color prediction games. Built with WebSocket technology for instant game updates and includes comprehensive admin dashboard for game analytics and customization.",
+                technologies: ["Angular 16", "Spring Boot", "WebSocket", "MySQL"],
+                features: [
+                    "Real-time multiplayer gameplay with WebSocket",
+                    "Multiple game modes including Ludo and color prediction",
+                    "Admin dashboard for game analytics and management",
+                    "Secure payment integration for in-game purchases"
+                ],
+                role: "Full Stack Developer",
+                duration: "3 months (Sep 2023 - Nov 2023)",
+                liveLink: "https://rohami-demo.vercel.app",
+                githubLink: "https://github.com/gyanprakash/rohami",
+                image: "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800"
+            },
+            {
+                title: "Autonome Project Management",
+                description: "Universal project management tool with Firebase authentication, real-time collaboration features, task tracking, cost management, and deadline notifications. Perfect for teams of any size.",
+                technologies: ["Angular 15", "Firebase", "RxJS", "Angular Material"],
+                features: [
+                    "Firebase authentication with multiple providers",
+                    "Real-time project collaboration and updates",
+                    "Task management with deadline tracking",
+                    "Cost estimation and budget management"
+                ],
+                role: "Frontend Developer",
+                duration: "3 months (May 2023 - Jul 2023)",
+                liveLink: "https://autonome-demo.vercel.app",
+                githubLink: "https://github.com/gyanprakash/autonome",
+                image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800"
+            },
+            {
+                title: "Shopping Platform",
+                description: "Full-featured e-commerce platform with advanced product filtering, shopping cart, wishlist functionality, and seamless Stripe payment integration for secure transactions.",
+                technologies: ["Angular 16", "Node.js", "Express.js", "Stripe", "MongoDB"],
+                features: [
+                    "Advanced product search and filtering system",
+                    "Shopping cart with real-time price calculations",
+                    "Stripe payment gateway integration",
+                    "Order tracking and email notifications"
+                ],
+                role: "Full Stack Developer",
+                duration: "2 months (Mar 2024 - Apr 2024)",
+                liveLink: "https://shopping-demo.vercel.app",
+                githubLink: "https://github.com/gyanprakash/shopping",
+                image: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=800"
+            },
+            {
+                title: "Foodster NGO Website",
+                description: "Food donation platform connecting donors with NGOs. Features donation tracking, volunteer management, and real-time updates on food distribution activities.",
+                technologies: ["Angular 17", "Firebase", "Bootstrap", "Google Maps API"],
+                features: [
+                    "Donor and NGO registration system",
+                    "Real-time donation tracking with notifications",
+                    "Volunteer management dashboard",
+                    "Location-based NGO finder with Google Maps"
+                ],
+                role: "Full Stack Developer",
+                duration: "1.5 months (Dec 2023 - Jan 2024)",
+                liveLink: "https://foodster-demo.vercel.app",
+                githubLink: "https://github.com/gyanprakash/foodster",
+                image: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800"
+            },
+            {
+                title: "OnlineEssentialOil CRM",
+                description: "Advanced Customer Relationship Management system with seamless WhatsApp Cloud API integration for automated customer communication, order management, and inventory tracking.",
+                technologies: ["Angular 18", "Node.js", "Prisma", "WhatsApp Cloud API", "MySQL"],
+                features: [
+                    "WhatsApp Cloud API integration for automated messaging",
+                    "Customer database with purchase history",
+                    "Order management and tracking system",
+                    "Inventory management with low-stock alerts"
+                ],
+                role: "Full Stack Developer",
+                duration: "3 months (Oct 2024 - Dec 2024)",
+                liveLink: "https://onlineessentialoil.com",
+                githubLink: "https://github.com/gyanprakash/crm-essential",
+                image: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800"
+            },
+            {
+                title: "MINIGANS College Portal",
+                description: "College mini-project showcasing institution's vision, mission, and featuring an interactive quiz platform for students with real-time scoring and leaderboards.",
+                technologies: ["Angular 14", "MySQL", "Bootstrap", "PHP"],
+                features: [
+                    "Dynamic content management for college information",
+                    "Interactive quiz system with timer",
+                    "Real-time leaderboard and scoring",
+                    "Student performance analytics dashboard"
+                ],
+                role: "Full Stack Developer",
+                duration: "2 months (Aug 2022 - Sep 2022)",
+                liveLink: "https://minigans-demo.vercel.app",
+                githubLink: "https://github.com/gyanprakash/minigans",
+                image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800"
+            },
+            {
+                title: "WhatsApp Scheduler Bot",
+                description: "Python-based automation bot for scheduling and sending WhatsApp messages with custom timing. Perfect for marketing campaigns and automated notifications.",
+                technologies: ["Python", "Selenium", "WhatsApp Web API", "Schedule"],
+                features: [
+                    "Schedule messages with custom date and time",
+                    "Bulk message sending to multiple contacts",
+                    "Message templates and personalization",
+                    "Automated retry mechanism for failed messages"
+                ],
+                role: "Python Developer",
+                duration: "1 month (Feb 2023 - Mar 2023)",
+                liveLink: "#",
+                githubLink: "https://github.com/gyanprakash/whatsapp-bot",
+                image: "https://images.unsplash.com/photo-1611746869696-d09bce200d00?w=800"
+            },
+            {
+                title: "Schedulo - Infosys Internship",
+                description: "Automated course scheduling system developed during Infosys internship. Features admin dashboard with dynamic filters that reduced scheduling errors by 40%.",
+                technologies: ["Angular 13", "Spring Boot", "MySQL", "AWS", "Angular Material"],
+                features: [
+                    "Automated course scheduling algorithm",
+                    "Admin dashboard with dynamic filtering",
+                    "Conflict detection and resolution",
+                    "Email notifications for schedule updates"
+                ],
+                role: "Full Stack Developer Intern",
+                duration: "4 months (Jan 2023 - May 2023)",
+                liveLink: "https://schedulo-demo.vercel.app",
+                githubLink: "https://github.com/gyanprakash/schedulo",
+                image: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=800"
+            },
+            {
+                title: "Plant & Seed Oils E-commerce",
+                description: "Comprehensive e-commerce website for selling essential oils with advanced inventory management, order tracking, and customer review system.",
+                technologies: ["Angular 17", "Node.js", "Express.js", "MySQL", "Razorpay"],
+                features: [
+                    "Product catalog with detailed descriptions",
+                    "Advanced inventory management system",
+                    "Customer review and rating system",
+                    "Razorpay payment integration"
+                ],
+                role: "Full Stack Developer",
+                duration: "3 months (Jun 2024 - Aug 2024)",
+                liveLink: "https://plantandseeds-demo.vercel.app",
+                githubLink: "https://github.com/gyanprakash/plant-seeds",
+                image: "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=800"
+            },
+            {
+                title: "Quotebox Video Converter",
+                description: "Advanced video downloader and customizer using FFMPEG. Supports multiple video formats, custom editing, and batch processing capabilities.",
+                technologies: ["Angular 16", "Node.js", "FFMPEG", "Express.js"],
+                features: [
+                    "Multi-format video download and conversion",
+                    "Custom video editing with FFMPEG",
+                    "Batch processing for multiple files",
+                    "Quality selection and compression options"
+                ],
+                role: "Full Stack Developer",
+                duration: "2 months (Jul 2023 - Aug 2023)",
+                liveLink: "https://quotebox-demo.vercel.app",
+                githubLink: "https://github.com/gyanprakash/quotebox",
+                image: "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800"
+            },
+            {
+                title: "Sahib Darbar Membership",
+                description: "Membership registration portal with automated email notifications, member database management, and payment tracking system.",
+                technologies: ["Angular 15", "Firebase", "Email.js", "Bootstrap"],
+                features: [
+                    "Online membership registration form",
+                    "Automated email confirmations",
+                    "Member database management",
+                    "Payment tracking and receipts"
+                ],
+                role: "Frontend Developer",
+                duration: "1.5 months (Nov 2023 - Dec 2023)",
+                liveLink: "https://sahibdarbar-demo.vercel.app",
+                githubLink: "https://github.com/gyanprakash/sahib-darbar",
+                image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800"
+            },
+            {
+                title: "Vega6 Blog Platform",
+                description: "Assessment project featuring dynamic blog creation, editing capabilities, user authentication, and comment system for interactive discussions.",
+                technologies: ["Angular 16", "Node.js", "MongoDB", "Express.js"],
+                features: [
+                    "Rich text editor for blog creation",
+                    "User authentication and authorization",
+                    "Comment system with moderation",
+                    "Blog categories and tagging system"
+                ],
+                role: "Full Stack Developer",
+                duration: "1 month (Sep 2023 - Oct 2023)",
+                liveLink: "https://vega6-demo.vercel.app",
+                githubLink: "https://github.com/gyanprakash/vega6-blog",
+                image: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800"
+            }
+        ];
+
+        // Open Project Modal
+        function openProjectModal(index) {
+            const project = projectsData[index];
+            const modal = document.getElementById('projectModal');
+            
+            document.getElementById('modalTitle').textContent = project.title;
+            document.getElementById('modalDescription').textContent = project.description;
+            document.getElementById('modalRole').textContent = project.role;
+            document.getElementById('modalDuration').textContent = project.duration;
+            document.getElementById('modalLiveLink').href = project.liveLink;
+            document.getElementById('modalGithubLink').href = project.githubLink;
+            
+            // Technologies
+            const techContainer = document.getElementById('modalTechnologies');
+            techContainer.innerHTML = project.technologies.map(tech => 
+                `<span class="bg-purple-600 px-3 py-1 rounded-full text-sm">${tech}</span>`
+            ).join('');
+            
+            // Features
+            const featuresContainer = document.getElementById('modalFeatures');
+            featuresContainer.innerHTML = project.features.map(feature => 
+                `<li>${feature}</li>`
+            ).join('');
+            
+            // Image
+            const modalImage = document.getElementById('modalImage');
+            const modalPlaceholder = document.getElementById('modalPlaceholder');
+            if (project.image) {
+                modalImage.src = project.image;
+                modalImage.classList.remove('hidden');
+                modalPlaceholder.classList.add('hidden');
+            } else {
+                modalImage.classList.add('hidden');
+                modalPlaceholder.classList.remove('hidden');
+            }
+            
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        }
+
+        // Close Project Modal
+        function closeProjectModal(event) {
+            const modal = document.getElementById('projectModal');
+            if (!event || event.target === modal) {
+                modal.classList.add('hidden');
+                modal.classList.remove('flex');
+            }
+        }
+
+        // Project Filtering
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const projectCards = document.querySelectorAll('.project-card');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const filter = btn.dataset.filter;
+                
+                // Update active button
+                filterBtns.forEach(b => {
+                    b.classList.remove('active', 'bg-purple-600');
+                    b.classList.add('bg-gray-700');
+                });
+                btn.classList.add('active', 'bg-purple-600');
+                btn.classList.remove('bg-gray-700');
+                
+                // Filter projects
+                projectCards.forEach(card => {
+                    if (filter === 'all' || card.dataset.category.includes(filter)) {
+                        card.style.display = 'block';
+                        setTimeout(() => {
+                            card.style.opacity = '1';
+                            card.style.transform = 'scale(1)';
+                        }, 10);
+                    } else {
+                        card.style.opacity = '0';
+                        card.style.transform = 'scale(0.8)';
+                        setTimeout(() => {
+                            card.style.display = 'none';
+                        }, 300);
                     }
                 });
             });
-        </script>
-        <!-- //MENU-JS -->
-
-        <!-- disable body scroll which navbar is in active -->
-        <script>
-            $(function () {
-                $('.navbar-toggler').click(function () {
-                    $('body').toggleClass('noscroll');
-                })
-            });
-        </script>
-        <!-- //disable body scroll which navbar is in active -->
-
-        <!-- bootstrap -->
-        <script src="assets/js/bootstrap.min.js"></script>
-        <!-- //bootstrap -->
-        <!-- //Js scripts -->
-
-
-        <div id="v-w3layouts"></div>
-        <script>(function (v, d, o, ai) { ai = d.createElement('script'); ai.defer = true; ai.async = true; ai.src = v.location.protocol + o; d.head.appendChild(ai); })(window, document, '../../../../../../../a.vdo.ai/core/v-w3layouts/vdo.ai.js');</script>
-    </body>
-
-
-    <!-- Mirrored from demo.w3layouts.com/demos_new/template_demo/28-07-2021/biodata-liberty-demo_Free/2002651968/web/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 02 May 2022 09:36:47 GMT -->
-
+        });
+    </script>
+</body>
 </html>
